@@ -1,0 +1,96 @@
+/* this is global settings for the whole page.
+    Any line that has the 2 dashes (-) is how we define variables
+    in CSS. to refer to them in other parts of a CSS document we use
+    the function called var(). The input of that function is the variable
+    you want to get the value of. EXAMPLE: var(--number-of-wheels) */
+
+/* this has settings for all elements inside the <body> tag */
+body {
+    background-color: #28282e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.background-wrapper{
+    color: teal;
+    background-color: green;
+}
+
+.container {
+    background-color: navy;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0px 12px 0px;
+    color: lightskyblue;
+}
+
+/* this has settings for any element with the <h1> tag */
+h1 {
+    font-size: 20px;
+    text-transform: none;
+    color: lightskyblue;
+}
+
+h2 {
+    font-size: 17px;
+    text-transform: none;
+    color: lightskyblue;
+}
+
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 0px 0px 8px 0px;
+    color: turquoise;
+}
+
+hr {
+    width: 95%;
+}
+
+main {
+    padding: 0px 18px 0px 18px;
+    color: lightskyblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 10px 4px 10px 18px;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightskyblue
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* this affects any items with the class of "main-title" */
+.main-title {
+    margin: 40px;
+}
